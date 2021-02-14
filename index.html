@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/style.css">
+  <title>Simple Calculator</title>
+</head>
+<body>
+  <section class="mainContainer">
+    <section class="resultSection">
+      <section id="display">
+        <section data-previous-input class="previousInput"></section>
+        <section data-current-input class="currentInput"></section>
+      </section>
+    </section>
+    <section class="resetSection">
+      <button data-all-clear class="reset button"><a href="#">AC</a></button>
+      <button data-delete class="button"><a href="#">DEL</a></button>
+      <button data-operation class="button"><a href="#">%</a></button>
+    </section>
+    <section class="secondSection">
+      <section class="firstRow box">
+        <button data-number class="button"><a href="#"> 7</a></button>
+        <button data-number class="button"><a href="#"> 4</a></button>
+        <button data-number class="button"><a href="#"> 1</a></button>
+        <button data-number class="button"><a href="#"> 0</a></button>
+      </section>
+      <section class="sectionRow box">
+        <button data-number class="button"><a href="#"> 8</a></button>
+        <button data-number class="button"><a href="#"> 5</a></button>
+        <button data-number class="button"><a href="#"> 2</a></button>
+        <button data-number class="button"><a href="#"> .</a></button>
+      </section>
+      <section class="thirdRow box">
+        <button data-number class="button"><a href="#"> 9</a></button>
+        <button data-number class="button"><a href="#"> 6</a></button>
+        <button data-number class="button"><a href="#"> 3</a></button>
+        <button data-operation class="button">
+          <a href="#"><i class="fas fa-plus"></i></a>
+        </button>
+      </section>
+      <section class="fourRow box">
+        <button data-operation class="button">
+          <a href="#"><i class="fas fa-divide"></i></a>
+        </button>
+        <button data-operation class="button">
+          <a href="#"><i class="fas fa-times"></i></a>
+        </button>
+        <button data-operation class="button">
+          <a href="#"><i class="fas fa-minus"></i></a>
+        </button>
+        <button data-equal class="button">
+          <a href="#"><i class="fas fa-equals"></i></a>
+        </button>
+      </section>
+    </section>
+  </section>
+
+  </section>
+  <script src="https://kit.fontawesome.com/c0e668a8ad.js" crossorigin="anonymous"></script>
+  <script src="./js/main.js"></script>
+</body>
+</html>
